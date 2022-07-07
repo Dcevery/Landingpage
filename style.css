@@ -1,8 +1,8 @@
 .heading {
+    background-color: darkgray;
     display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    gap: 15%;
     
 }
 ul {
@@ -10,11 +10,20 @@ ul {
     gap: 12px;
     list-style-type: none;
 }
-.box1txt {
-    font-weight: bold;
+
+a {
+    text-decoration: none;
 }
 body {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
+}
+.content {
+    align-items: center;
+}
+
+.heading, .box1 {
+    
+}
+.box1 {
+    background-color: darkgrey;
 }
